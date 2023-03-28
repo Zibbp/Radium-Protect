@@ -27,7 +27,7 @@ jobs:
         uses: tyankatsu0105/read-package-version-actions@v1
         id: package-version
       - name: Publish to Docker Hub
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: zibbp/radium-protect
           username: ${{ secrets.DOCKER_USERNAME }}
